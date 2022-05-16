@@ -1,0 +1,15 @@
+.\objects\main.o: User\main.c
+.\objects\main.o: .\hardware\hardware.h
+.\objects\main.o: .\User\def.h
+.\objects\main.o: .\hardware\HC_Tim.h
+.\objects\main.o: .\hardware\lora\loraDealDat.h
+.\objects\main.o: .\hardware\SysConfig.h
+.\objects\main.o: .\hardware\HC_Time3.h
+.\objects\main.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: .\driver\inc\ddl.h
+.\objects\main.o: .\User\base_types.h
+.\objects\main.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\main.o: .\User\hc32l13x.h

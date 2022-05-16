@@ -1,0 +1,12 @@
+.\objects\bh1750.o: hardware\Sensor\BH1750.c
+.\objects\bh1750.o: hardware\Sensor\BH1750.h
+.\objects\bh1750.o: .\User\def.h
+.\objects\bh1750.o: .\hardware\HC_I2c.h
+.\objects\bh1750.o: .\driver\inc\ddl.h
+.\objects\bh1750.o: .\User\base_types.h
+.\objects\bh1750.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bh1750.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\bh1750.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\bh1750.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bh1750.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\bh1750.o: .\User\hc32l13x.h

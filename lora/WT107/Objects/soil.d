@@ -1,0 +1,13 @@
+.\objects\soil.o: hardware\Sensor\Soil.c
+.\objects\soil.o: hardware\Sensor\Soil.h
+.\objects\soil.o: .\User\def.h
+.\objects\soil.o: .\hardware\HC_Usart.h
+.\objects\soil.o: .\driver\inc\gpio.h
+.\objects\soil.o: .\driver\inc\ddl.h
+.\objects\soil.o: .\User\base_types.h
+.\objects\soil.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\soil.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\soil.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\soil.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\soil.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\soil.o: .\User\hc32l13x.h

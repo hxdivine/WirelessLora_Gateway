@@ -1,0 +1,10 @@
+.\objects\bt.o: driver\src\bt.c
+.\objects\bt.o: .\driver\inc\bt.h
+.\objects\bt.o: .\driver\inc\ddl.h
+.\objects\bt.o: .\User\base_types.h
+.\objects\bt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\bt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\bt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\bt.o: .\User\hc32l13x.h

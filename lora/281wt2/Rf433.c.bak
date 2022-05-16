@@ -1,0 +1,169 @@
+#include "stm8s.h"
+#include "hw_config.h" 
+#include "pub.h"  
+#include "stdio.h"
+#include "flash_eeprom.h"
+#include "rf433.h"
+
+#define BUFLEN 250
+
+
+
+#ifdef WT3
+#define PACKLEN  4           //ＷＴ３标准上发数据包有4字节
+#else
+#define PACKLEN  8           //ＷＴ5标准上发数据包有8字节
+#endif
+
+u8 RecU1[BUFLEN];
+u8 SendU1[sizeof(PACKHEAD)+sizeof(WT3SYSINFO)+6];
+
+static u8	RecPtr1;
+
+
+
+u16 LastSendStamp=0;
+u8 PackSeq;
+u8 RetryCnt=0;
+
+u8 RecLen=0;
+u8 MyStep=0;
+void ReSendPack(void)
+{
+	u8 i;
+	for(i=0;i<sizeof(PACKHEAD)+PACKLEN+1;i++){
+    	UART1_SendByte(SendU1[i]);
+    }
+    LastSendStamp=GetSysms();
+    RetryCnt++;
+    CommCnt=200;
+}
+void SendPack(u8 seq)
+{
+    u8 i,sum=0;
+    PACKHEAD *head=(PACKHEAD *)&SendU1;
+    head->len=sizeof(PACKHEAD)+PACKLEN+1;
+    head->src=SysInfo.id;
+    head->tar=0;
+    head->PackSeq=seq;
+    head->step=MyStep;
+    
+    TranAdValue();
+    
+        SendU1[sizeof(PACKHEAD)+0] =g_Temp>>8;
+        SendU1[sizeof(PACKHEAD)+1] =g_Temp&0xff;
+        SendU1[sizeof(PACKHEAD)+2] =g_humid>>8;
+        SendU1[sizeof(PACKHEAD)+3] =g_humid&0xff;  
+        SendU1[sizeof(PACKHEAD)+4] =AdRes1>>8;
+        SendU1[sizeof(PACKHEAD)+5] =AdRes1&0xff;
+        SendU1[sizeof(PACKHEAD)+6] =AdRes2>>8;
+        SendU1[sizeof(PACKHEAD)+7] =AdRes2&0xff;
+    
+    for(i=0;i<sizeof(PACKHEAD)+PACKLEN;i++){
+		sum^=SendU1[i];		
+    }
+    SendU1[sizeof(PACKHEAD)+PACKLEN] =sum;
+    RetryCnt=0;
+    ReSendPack();
+    
+}
+void SendPackSet(void)//返回设置项
+{
+    u8 i,sum=0;
+    u8 *ptr=(u8*)&SysInfo;
+    PACKHEAD *head=(PACKHEAD *)&SendU1;
+    head->len=sizeof(PACKHEAD)+sizeof(SysInfo)+1;
+    head->src=SysInfo.id;
+    head->tar=0;
+    head->PackSeq=0xfe;
+    head->step=MyStep;
+    
+    
+    for(i=0;i<sizeof(WT3SYSINFO);i++){
+        SendU1[sizeof(PACKHEAD)+i] =*ptr;
+        ptr++;
+    }    
+    
+    for(i=0;i<sizeof(PACKHEAD)+sizeof(SysInfo);i++){
+		sum^=SendU1[i];		
+		UART1_SendByte(SendU1[i]);
+    }
+    UART1_SendByte(sum);
+    CommCnt=200;
+}
+
+
+void ProcPcCmd(void)
+{
+	static u8 LastSeq;
+	u8 i,sum=0;
+    PACKHEAD *Rechead=(PACKHEAD *)&RecU1;
+	if(RecLen ){//
+		for(i=0;i<RecLen;i++){
+			sum^=RecU1[i];
+		}
+		if(sum==0){//校验通过
+			if(Rechead->src==0){
+				if(SysInfo.id==Rechead->tar||Rechead->tar==0xff){//是本机地址
+                    if(InSetMode&&((Rechead->PackSeq==255)||(Rechead->PackSeq==254))){
+                        if(Rechead->PackSeq==254){//是查询包
+                            SendPackSet();
+                        }
+                        else if(RecLen==sizeof(PACKHEAD)+sizeof(WT3SYSINFO)+1){                            
+                            u8 *ptr=(u8*)&SysInfo;
+                            for(i=0;i<sizeof(WT3SYSINFO);i++){//stm8S IAR是大端，高位在前
+                                *ptr=RecU1[sizeof(PACKHEAD)+i];//上位机调整为大端
+                                ptr++;
+                            }
+                            SendPack(Rechead->PackSeq);
+                            LastSendStamp=0;//不需重发
+                            SaveSysInfo();  
+                            HaveSet=1;
+                        }
+                    }
+                    else{
+                        if(SysInfo.TranMode){//从机主动
+                            if(Rechead->PackSeq==PackSeq){
+                                
+                                if(PackSeq	>250) PackSeq=0;
+                                LastSendStamp=0;
+                                RetryCnt=0;
+                            }
+                            
+                        }
+                        else{
+	                        MyStep=Rechead->step;                            
+							if(LastSeq!=Rechead->PackSeq){//数据是否应答过，若应答过可能是中继来的
+								SendPack(Rechead->PackSeq);
+								LastSeq=Rechead->PackSeq;
+							}
+						}
+                    }
+				}
+			}
+		}
+		RecLen=0;
+	}	
+	
+		
+	
+}
+
+void uart1Isr(u8 dat)
+{	
+	static u16 LastStamp=0;	
+	if(Sys1msCnt-LastStamp>10)
+		RecPtr1=0;
+	LastStamp=Sys1msCnt;		
+	CommCnt=200;
+	
+	if(RecPtr1<BUFLEN&&RecLen==0) RecU1[RecPtr1]=dat;//若超出缓冲则忽略
+	RecPtr1++;	
+    if(RecPtr1&&RecPtr1==RecU1[0]){
+        RecLen=RecPtr1;
+    }
+}
+void uart3Isr(u8 dat)
+{	
+	
+}

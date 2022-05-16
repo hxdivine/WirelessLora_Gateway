@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>wt3lora/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>238</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Find-in-Files><ColumnWidth0>414</ColumnWidth0><ColumnWidth1>59</ColumnWidth1><ColumnWidth2>710</ColumnWidth2></Find-in-Files><Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>860</ColumnWidth1><ColumnWidth2>229</ColumnWidth2><ColumnWidth3>57</ColumnWidth3></Build><Select-Ambiguous-Definitions><ColumnWidth0>414</ColumnWidth0><ColumnWidth1>59</ColumnWidth1><ColumnWidth2>710</ColumnWidth2></Select-Ambiguous-Definitions><TerminalIO/><Find-All-Declarations><ColumnWidth0>478</ColumnWidth0><ColumnWidth1>68</ColumnWidth1><ColumnWidth2>819</ColumnWidth2></Find-All-Declarations></Static>
+    <Windows>
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-7801-18669</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>wt3lora</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-28155-238</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-2939-15244</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-9505-15325</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-28645-25448</Identity><TabName>Find All Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\hw_config.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>140</YPos2><SelStart2>7021</SelStart2><SelEnd2>7021</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\hw_config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>945</SelStart2><SelEnd2>945</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>122</YPos2><SelStart2>3357</SelStart2><SelEnd2>3357</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>36</YPos2><SelStart2>1012</SelStart2><SelEnd2>1024</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\fwlib\src\stm8l15x_spi.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>305</YPos2><SelStart2>13764</SelStart2><SelEnd2>13764</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Rf433.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>82</YPos2><SelStart2>1847</SelStart2><SelEnd2>1856</SelEnd2></Tab><ActiveTab>5</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\flash_eeprom.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>405</SelStart2><SelEnd2>405</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\pub.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>624</SelStart2><SelEnd2>624</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\pccmd.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>446</SelStart2><SelEnd2>446</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0116c180><key>iaridepm.enu1</key></Toolbar-0116c180></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>625</Bottom><Right>312</Right><x>-2</x><y>-2</y><xscreen>218</xscreen><yscreen>201</yscreen><sizeHorzCX>166539</sizeHorzCX><sizeHorzCY>215665</sizeHorzCY><sizeVertCX>239878</sizeVertCX><sizeVertCY>672747</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>262</Bottom><Right>1311</Right><x>-2</x><y>-2</y><xscreen>1313</xscreen><yscreen>264</yscreen><sizeHorzCX>1003056</sizeHorzCX><sizeHorzCY>283262</sizeHorzCY><sizeVertCX>166539</sizeVertCX><sizeVertCY>215665</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

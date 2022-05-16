@@ -1,0 +1,9 @@
+.\objects\ddl.o: driver\src\ddl.c
+.\objects\ddl.o: .\driver\inc\ddl.h
+.\objects\ddl.o: .\User\base_types.h
+.\objects\ddl.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ddl.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ddl.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ddl.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ddl.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\ddl.o: .\User\hc32l13x.h

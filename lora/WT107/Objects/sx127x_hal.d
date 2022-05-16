@@ -1,0 +1,13 @@
+.\objects\sx127x_hal.o: hardware\lora\sx127x_Hal.c
+.\objects\sx127x_hal.o: hardware\lora\sx127x_Hal.h
+.\objects\sx127x_hal.o: .\User\def.h
+.\objects\sx127x_hal.o: .\hardware\HC_Spi.h
+.\objects\sx127x_hal.o: .\driver\inc\gpio.h
+.\objects\sx127x_hal.o: .\driver\inc\ddl.h
+.\objects\sx127x_hal.o: .\User\base_types.h
+.\objects\sx127x_hal.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\sx127x_hal.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\sx127x_hal.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\sx127x_hal.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sx127x_hal.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\sx127x_hal.o: .\User\hc32l13x.h

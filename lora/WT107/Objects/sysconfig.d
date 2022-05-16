@@ -1,0 +1,13 @@
+.\objects\sysconfig.o: hardware\SysConfig.c
+.\objects\sysconfig.o: hardware\SysConfig.h
+.\objects\sysconfig.o: .\User\def.h
+.\objects\sysconfig.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\sysconfig.o: hardware\HC_Flash.h
+.\objects\sysconfig.o: .\driver\inc\flash.h
+.\objects\sysconfig.o: .\driver\inc\ddl.h
+.\objects\sysconfig.o: .\User\base_types.h
+.\objects\sysconfig.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\sysconfig.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\sysconfig.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sysconfig.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\sysconfig.o: .\User\hc32l13x.h

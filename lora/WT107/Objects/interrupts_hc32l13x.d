@@ -1,0 +1,9 @@
+.\objects\interrupts_hc32l13x.o: User\interrupts_hc32l13x.c
+.\objects\interrupts_hc32l13x.o: .\driver\inc\ddl.h
+.\objects\interrupts_hc32l13x.o: .\User\base_types.h
+.\objects\interrupts_hc32l13x.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\interrupts_hc32l13x.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\interrupts_hc32l13x.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\interrupts_hc32l13x.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\interrupts_hc32l13x.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\interrupts_hc32l13x.o: .\User\hc32l13x.h

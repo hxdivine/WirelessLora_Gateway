@@ -1,0 +1,10 @@
+.\objects\gpio.o: driver\src\gpio.c
+.\objects\gpio.o: .\driver\inc\gpio.h
+.\objects\gpio.o: .\driver\inc\ddl.h
+.\objects\gpio.o: .\User\base_types.h
+.\objects\gpio.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gpio.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gpio.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gpio.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\gpio.o: .\User\hc32l13x.h

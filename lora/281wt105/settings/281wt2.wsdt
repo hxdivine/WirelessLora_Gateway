@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>wt3lora/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>119</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>830</ColumnWidth1><ColumnWidth2>215</ColumnWidth2><ColumnWidth3>55</ColumnWidth3></Build>
+    <Find-in-Files><ColumnWidth0>427</ColumnWidth0><ColumnWidth1>61</ColumnWidth1><ColumnWidth2>732</ColumnWidth2></Find-in-Files><Select-Ambiguous-Definitions><ColumnWidth0>378</ColumnWidth0><ColumnWidth1>54</ColumnWidth1><ColumnWidth2>649</ColumnWidth2></Select-Ambiguous-Definitions><Find-All-Declarations><ColumnWidth0>386</ColumnWidth0><ColumnWidth1>55</ColumnWidth1><ColumnWidth2>662</ColumnWidth2></Find-All-Declarations><TerminalIO/><Debug-Log><ColumnWidth0>18</ColumnWidth0><ColumnWidth1>1069</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-19331-27912</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>wt3lora</ExpandedNode><ExpandedNode>wt3lora/fwlib</ExpandedNode><ExpandedNode>wt3lora/user</ExpandedNode><ExpandedNode>wt3lora/user/flash_eeprom.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-2309-28026</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-17228-16862</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-31213-28345</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-4534-4391</Identity><TabName>Find All Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab><Tab><Identity>TabID-20945-26822</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\hw_config.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>170</YPos2><SelStart2>4928</SelStart2><SelEnd2>4928</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\fwlib\src\stm8l15x_rtc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1379</YPos2><SelStart2>50516</SelStart2><SelEnd2>50516</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>184</YPos2><SelStart2>4816</SelStart2><SelEnd2>4816</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\fwlib\src\stm8l15x_iwdg.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>150</YPos2><SelStart2>7595</SelStart2><SelEnd2>7595</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>8</YPos2><SelStart2>938</SelStart2><SelEnd2>938</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lora\lora.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>23</YPos2><SelStart2>1347</SelStart2><SelEnd2>1347</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Rf433.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>148</XPos2><YPos2>71</YPos2><SelStart2>2233</SelStart2><SelEnd2>2233</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\hw_config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>14</YPos2><SelStart2>1757</SelStart2><SelEnd2>1757</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01bf3980><key>iaridepm.enu1</key></Toolbar-01bf3980></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>615</Bottom><Right>210</Right><x>-2</x><y>-2</y><xscreen>228</xscreen><yscreen>205</yscreen><sizeHorzCX>291933</sizeHorzCX><sizeHorzCY>222102</sizeHorzCY><sizeVertCX>271447</sizeVertCX><sizeVertCY>668472</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>263</Bottom><Right>783</Right><x>-2</x><y>-2</y><xscreen>785</xscreen><yscreen>265</yscreen><sizeHorzCX>1005122</sizeHorzCX><sizeHorzCY>287107</sizeHorzCY><sizeVertCX>291933</sizeVertCX><sizeVertCY>222102</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,13 @@
+.\objects\hc_tim.o: hardware\HC_Tim.c
+.\objects\hc_tim.o: hardware\hardware.h
+.\objects\hc_tim.o: .\User\def.h
+.\objects\hc_tim.o: hardware\HC_Tim.h
+.\objects\hc_tim.o: .\driver\inc\bt.h
+.\objects\hc_tim.o: .\driver\inc\ddl.h
+.\objects\hc_tim.o: .\User\base_types.h
+.\objects\hc_tim.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\hc_tim.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hc_tim.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hc_tim.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hc_tim.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\hc_tim.o: .\User\hc32l13x.h

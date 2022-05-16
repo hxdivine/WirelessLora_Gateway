@@ -1,0 +1,114 @@
+
+
+/* Includes ------------------------------------------------------------------*/
+/* Includes ------------------------------------------------------------------*/
+#include "stm8s.h"
+#include "hw_config.h" 
+#include "pub.h"
+#include "intrinsics.h"
+#include "flash_eeprom.h"
+#include "stm8s_flash.h"
+#include "stdio.h"
+#include "rf433.h"
+
+//模块上电送出  9600  N 8 1 YL_800IL V2.1
+//700ms后，另一模块才送出数据
+u16 ad1,ad2,AdRes1,AdRes2;
+
+u16 CommCnt=0,AlarmCnt;
+u8 InSetMode;
+u8 HaveSet=0;
+
+
+
+unsigned char Read_Sensor(void);
+
+
+
+
+    
+int main(void)
+{
+ 
+    u16 LastMs;
+    u16 LastSec=0;
+    u16 cnt=2900;
+    u8 InitOk=0;
+    SetSystem();
+    
+    
+    AlarmCnt=500;
+    CommCnt=500;
+        
+    if(KEYRST){
+       Refactory(); 
+    }
+    ReadSysInfo();    
+    if(SysInfo.TranMode){//主动上发
+    	Read_Sensor();
+    	SendPack(PackSeq);
+    	LastSec=SysSec;
+    }
+    Read_Sensor();
+    TranAdValue();
+	while(1){	
+        if(KEYSET){
+            InSetMode=1;       
+        }
+        else 
+          InSetMode=0;
+        ProcPcCmd();
+        if(Sys1msCnt!=LastMs){
+            LastMs=Sys1msCnt;
+            cnt++;
+#ifndef WT3            
+            if(cnt==1000||cnt==2000||cnt==3000){
+                TranAdValue();
+                InitOk|=2;
+                if(AdRes1>SysInfo.Ad1High||AdRes1<SysInfo.Ad1Low||
+                   AdRes2>SysInfo.Ad2High||AdRes2<SysInfo.Ad2Low){
+                      AlarmCnt=200;
+                        LastSec=SysSec-SysInfo.TranMode;  
+                 }
+            }
+#endif            
+            if(cnt>3000){
+                cnt=0;
+                if(Read_Sensor()){
+                	
+                    if(g_humid>SysInfo.HumiHigh||g_humid<SysInfo.HumiLow){
+                        AlarmCnt=200;
+                        LastSec=SysSec-SysInfo.TranMode;
+                    }
+                    
+                    if(g_Temp>SysInfo.TempHigh||g_Temp<SysInfo.TempLow){
+                        AlarmCnt=200;
+                        LastSec=SysSec-SysInfo.TranMode;
+                    }
+                }
+                InitOk|=1;
+            }
+            
+            if(InitOk>=3&&SysInfo.TranMode&&InSetMode==0&&SysInfo.id>0&&SysInfo.id<255){////主动上发
+                if(SysSec-LastSec>=SysInfo.TranMode){   //定时到开启新上发  
+                	LastSec=SysSec;           	
+                	PackSeq++;
+                    SendPack(PackSeq);    
+                }
+                else if(LastSendStamp&&RetryCnt<3){//没有应答，重发
+                    if(Sys1msCnt-LastSendStamp>300*SysInfo.id+RetryCnt*TIMEI){
+                        ReSendPack();
+                    }
+                }
+            }
+        }
+        ClrWdg;
+	}	
+}
+
+
+
+
+
+
+/******************* (C) COPYRIGHT 风驰电子嵌入式开发工作室 *****END OF FILE****/

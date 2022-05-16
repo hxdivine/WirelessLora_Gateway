@@ -1,0 +1,12 @@
+.\objects\hc_i2c.o: hardware\HC_I2c.c
+.\objects\hc_i2c.o: hardware\HC_I2c.h
+.\objects\hc_i2c.o: .\User\def.h
+.\objects\hc_i2c.o: .\driver\inc\gpio.h
+.\objects\hc_i2c.o: .\driver\inc\ddl.h
+.\objects\hc_i2c.o: .\User\base_types.h
+.\objects\hc_i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\hc_i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hc_i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hc_i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hc_i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\hc_i2c.o: .\User\hc32l13x.h

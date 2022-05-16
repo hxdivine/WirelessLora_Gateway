@@ -1,0 +1,12 @@
+.\objects\hc_spi.o: hardware\HC_Spi.c
+.\objects\hc_spi.o: hardware\HC_Spi.h
+.\objects\hc_spi.o: .\User\def.h
+.\objects\hc_spi.o: .\driver\inc\gpio.h
+.\objects\hc_spi.o: .\driver\inc\ddl.h
+.\objects\hc_spi.o: .\User\base_types.h
+.\objects\hc_spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\hc_spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hc_spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hc_spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hc_spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\hc_spi.o: .\User\hc32l13x.h

@@ -1,0 +1,14 @@
+.\objects\uip-neighbor.o: Net\Uip\uip-neighbor.c
+.\objects\uip-neighbor.o: Net\Uip\uip-neighbor.h
+.\objects\uip-neighbor.o: Net\Uip\uip.h
+.\objects\uip-neighbor.o: Net\Uip\uipopt.h
+.\objects\uip-neighbor.o: .\Net\Uip-app\uip-conf.h
+.\objects\uip-neighbor.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\uip-neighbor.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uip-neighbor.o: .\Net\Uip-app\uip_appcall.h
+.\objects\uip-neighbor.o: .\Net\Uip\psock.h
+.\objects\uip-neighbor.o: .\Net\Uip\pt.h
+.\objects\uip-neighbor.o: .\Net\Uip\lc.h
+.\objects\uip-neighbor.o: .\Net\Uip\lc-switch.h
+.\objects\uip-neighbor.o: .\User\def.h
+.\objects\uip-neighbor.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h

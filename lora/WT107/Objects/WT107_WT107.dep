@@ -1,0 +1,328 @@
+Dependencies for Project 'WT107', Target 'WT107': (DO NOT MODIFY !)
+F (.\User\main.c)(0x6151DD21)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\hardware\hardware.h)(0x61012B42)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\hardware\HC_Tim.h)(0x604ABA46)
+I (.\hardware\lora\loraDealDat.h)(0x60B1ED72)
+I (.\hardware\SysConfig.h)(0x61010F30)
+I (.\hardware\HC_Time3.h)(0x60405C0E)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\User\system_hc32l13x.c)(0x6151D998)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\system_hc32l13x.o --omf_browse .\objects\system_hc32l13x.crf --depend .\objects\system_hc32l13x.d)
+I (User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (User\hc32l13x.h)(0x5D1892E2)
+F (.\User\interrupts_hc32l13x.c)(0x6151D9C4)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\interrupts_hc32l13x.o --omf_browse .\objects\interrupts_hc32l13x.crf --depend .\objects\interrupts_hc32l13x.d)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\User\startup_hc32l13x.s)(0x5F560CC4)(--cpu Cortex-M0+ -g --apcs=interwork -I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514"--list .\listings\startup_hc32l13x.lst --xref -o .\objects\startup_hc32l13x.o --depend .\objects\startup_hc32l13x.d)
+F (.\driver\src\ddl.c)(0x5C1715FF)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\ddl.o --omf_browse .\objects\ddl.crf --depend .\objects\ddl.d)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\flash.c)(0x5C1715F7)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (.\driver\inc\flash.h)(0x5C171593)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\gpio.c)(0x5C1715F4)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\driver\inc\gpio.h)(0x5C171591)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\i2c.c)(0x5C1715EF)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (.\driver\inc\i2c.h)(0x5C17158C)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\spi.c)(0x5C1715CE)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\driver\inc\spi.h)(0x5C171570)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\sysctrl.c)(0x5C1715CC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\sysctrl.o --omf_browse .\objects\sysctrl.crf --depend .\objects\sysctrl.d)
+I (.\driver\inc\sysctrl.h)(0x5C17156D)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\timer3.c)(0x5C1715C9)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\timer3.o --omf_browse .\objects\timer3.crf --depend .\objects\timer3.d)
+I (.\driver\inc\timer3.h)(0x5C17156A)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\uart.c)(0x5C1715C3)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\driver\inc\uart.h)(0x5C171565)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\bt.c)(0x5C1715AD)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\bt.o --omf_browse .\objects\bt.crf --depend .\objects\bt.d)
+I (.\driver\inc\bt.h)(0x5C171553)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\driver\src\wdt.c)(0x5C1715BC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\wdt.o --omf_browse .\objects\wdt.crf --depend .\objects\wdt.d)
+I (.\driver\inc\wdt.h)(0x5C171560)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\hardware.c)(0x6151DD4F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\hardware.o --omf_browse .\objects\hardware.crf --depend .\objects\hardware.d)
+I (hardware\hardware.h)(0x61012B42)
+I (.\User\def.h)(0x5FDC00BA)
+I (hardware\HC_Usart.h)(0x60DD7D40)
+I (.\driver\inc\gpio.h)(0x5C171591)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\HC_Flash.c)(0x6151DA22)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\hc_flash.o --omf_browse .\objects\hc_flash.crf --depend .\objects\hc_flash.d)
+I (hardware\HC_Flash.h)(0x601A4A6A)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\driver\inc\flash.h)(0x5C171593)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\HC_I2c.c)(0x6151DA3D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\hc_i2c.o --omf_browse .\objects\hc_i2c.crf --depend .\objects\hc_i2c.d)
+I (hardware\HC_I2c.h)(0x604EE0A2)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\driver\inc\gpio.h)(0x5C171591)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\HC_Spi.c)(0x6048160E)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\hc_spi.o --omf_browse .\objects\hc_spi.crf --depend .\objects\hc_spi.d)
+I (hardware\HC_Spi.h)(0x6041CC68)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\driver\inc\gpio.h)(0x5C171591)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\HC_Time3.c)(0x60D46980)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\hc_time3.o --omf_browse .\objects\hc_time3.crf --depend .\objects\hc_time3.d)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\HC_Usart.c)(0x60E2D348)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\hc_usart.o --omf_browse .\objects\hc_usart.crf --depend .\objects\hc_usart.d)
+I (hardware\HC_Usart.h)(0x60DD7D40)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\driver\inc\gpio.h)(0x5C171591)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\HC_Tim.c)(0x6151DAD5)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\hc_tim.o --omf_browse .\objects\hc_tim.crf --depend .\objects\hc_tim.d)
+I (hardware\hardware.h)(0x61012B42)
+I (.\User\def.h)(0x5FDC00BA)
+I (hardware\HC_Tim.h)(0x604ABA46)
+I (.\driver\inc\bt.h)(0x5C171553)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\HC_Wdt.c)(0x6151DB09)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\hc_wdt.o --omf_browse .\objects\hc_wdt.crf --depend .\objects\hc_wdt.d)
+I (hardware\HC_Wdt.h)(0x607E46EE)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\driver\inc\wdt.h)(0x5C171560)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\lora\lora.c)(0x6151DD21)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\lora.o --omf_browse .\objects\lora.crf --depend .\objects\lora.d)
+I (hardware\lora\lora.h)(0x61511CEF)
+I (.\User\def.h)(0x5FDC00BA)
+I (hardware\lora\sx127x_Drive.h)(0x61511CEF)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (.\hardware\lora\loraDealDat.c)(0x6151DC03)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\loradealdat.o --omf_browse .\objects\loradealdat.crf --depend .\objects\loradealdat.d)
+I (hardware\lora\loraDealDat.h)(0x60B1ED72)
+I (.\User\def.h)(0x5FDC00BA)
+I (hardware\lora\lora.h)(0x61511CEF)
+I (.\hardware\SysConfig.h)(0x61010F30)
+I (.\hardware\hardware.h)(0x61012B42)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\lora\sx127x_Drive.c)(0x6151DC2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\sx127x_drive.o --omf_browse .\objects\sx127x_drive.crf --depend .\objects\sx127x_drive.d)
+I (hardware\lora\sx127x_Drive.h)(0x61511CEF)
+I (.\User\def.h)(0x5FDC00BA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (.\hardware\lora\sx127x_Hal.c)(0x6151DD21)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\sx127x_hal.o --omf_browse .\objects\sx127x_hal.crf --depend .\objects\sx127x_hal.d)
+I (hardware\lora\sx127x_Hal.h)(0x6041A15C)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\hardware\HC_Spi.h)(0x6041CC68)
+I (.\driver\inc\gpio.h)(0x5C171591)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\SysConfig.c)(0x61010F30)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\sysconfig.o --omf_browse .\objects\sysconfig.crf --depend .\objects\sysconfig.d)
+I (hardware\SysConfig.h)(0x61010F30)
+I (.\User\def.h)(0x5FDC00BA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (hardware\HC_Flash.h)(0x601A4A6A)
+I (.\driver\inc\flash.h)(0x5C171593)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\Sensor\BH1750.c)(0x6151DC68)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\bh1750.o --omf_browse .\objects\bh1750.crf --depend .\objects\bh1750.d)
+I (hardware\Sensor\BH1750.h)(0x60497AA6)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\hardware\HC_I2c.h)(0x604EE0A2)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\Sensor\Gxht3L.c)(0x6151DC85)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\gxht3l.o --omf_browse .\objects\gxht3l.crf --depend .\objects\gxht3l.d)
+I (hardware\Sensor\Gxht3l.h)(0x6049841A)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\hardware\HC_I2c.h)(0x604EE0A2)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\Sensor\Sgp30.c)(0x6151DCAB)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\sgp30.o --omf_browse .\objects\sgp30.crf --depend .\objects\sgp30.d)
+I (hardware\Sensor\Sgp30.h)(0x604EE00E)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\hardware\HC_I2c.h)(0x604EE0A2)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)
+F (.\hardware\Sensor\Soil.c)(0x6151DCD9)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\User -I.\RTE -I.\hardware -I.\RTE\Device\HC32L130E8PA -I.\driver\inc -I.\hardware\lora -I.\hardware\Sensor-I G:\lora\WT107\RTE-I D:\KEI5_MDK\ARM\PACK\HDSC\HC32L130\1.0.1-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\objects\soil.o --omf_browse .\objects\soil.crf --depend .\objects\soil.d)
+I (hardware\Sensor\Soil.h)(0x6049C414)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\hardware\HC_Usart.h)(0x60DD7D40)
+I (.\driver\inc\gpio.h)(0x5C171591)
+I (.\driver\inc\ddl.h)(0x6151E20D)
+I (.\User\base_types.h)(0x5D11C242)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (.\User\hc32l13x.h)(0x5D1892E2)

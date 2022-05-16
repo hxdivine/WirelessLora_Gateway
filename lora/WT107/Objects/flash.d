@@ -1,0 +1,10 @@
+.\objects\flash.o: driver\src\flash.c
+.\objects\flash.o: .\driver\inc\flash.h
+.\objects\flash.o: .\driver\inc\ddl.h
+.\objects\flash.o: .\User\base_types.h
+.\objects\flash.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\flash.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\flash.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\flash.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flash.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\flash.o: .\User\hc32l13x.h

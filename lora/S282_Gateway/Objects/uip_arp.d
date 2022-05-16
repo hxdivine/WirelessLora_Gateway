@@ -1,0 +1,14 @@
+.\objects\uip_arp.o: Net\Uip\uip_arp.c
+.\objects\uip_arp.o: Net\Uip\uip_arp.h
+.\objects\uip_arp.o: Net\Uip\uip.h
+.\objects\uip_arp.o: Net\Uip\uipopt.h
+.\objects\uip_arp.o: .\Net\Uip-app\uip-conf.h
+.\objects\uip_arp.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\uip_arp.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uip_arp.o: .\Net\Uip-app\uip_appcall.h
+.\objects\uip_arp.o: .\Net\Uip\psock.h
+.\objects\uip_arp.o: .\Net\Uip\pt.h
+.\objects\uip_arp.o: .\Net\Uip\lc.h
+.\objects\uip_arp.o: .\Net\Uip\lc-switch.h
+.\objects\uip_arp.o: .\User\def.h
+.\objects\uip_arp.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h

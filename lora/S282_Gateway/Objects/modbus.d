@@ -1,0 +1,13 @@
+.\objects\modbus.o: Drive\Modbus\modbus.c
+.\objects\modbus.o: .\User\systick.h
+.\objects\modbus.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\modbus.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\modbus.o: .\Net\Uip-app\tapdev.h
+.\objects\modbus.o: .\User\def.h
+.\objects\modbus.o: Drive\Modbus\modbus.h
+.\objects\modbus.o: .\Drive\CONFIG\config.h
+.\objects\modbus.o: .\Drive\lora\loraDealDat.h
+.\objects\modbus.o: .\User\pub.h
+.\objects\modbus.o: .\Drive\RTC\rtc.h
+.\objects\modbus.o: .\Drive\GPRS\GSM234G.h
+.\objects\modbus.o: .\Drive\CONFIG\hardware.h

@@ -1,0 +1,10 @@
+.\objects\i2c.o: driver\src\i2c.c
+.\objects\i2c.o: .\driver\inc\i2c.h
+.\objects\i2c.o: .\driver\inc\ddl.h
+.\objects\i2c.o: .\User\base_types.h
+.\objects\i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\i2c.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\i2c.o: .\User\hc32l13x.h

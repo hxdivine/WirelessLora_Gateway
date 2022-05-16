@@ -1,0 +1,12 @@
+.\objects\hc_wdt.o: hardware\HC_Wdt.c
+.\objects\hc_wdt.o: hardware\HC_Wdt.h
+.\objects\hc_wdt.o: .\User\def.h
+.\objects\hc_wdt.o: .\driver\inc\wdt.h
+.\objects\hc_wdt.o: .\driver\inc\ddl.h
+.\objects\hc_wdt.o: .\User\base_types.h
+.\objects\hc_wdt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\hc_wdt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hc_wdt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hc_wdt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hc_wdt.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\hc_wdt.o: .\User\hc32l13x.h

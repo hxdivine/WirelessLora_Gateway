@@ -1,0 +1,12 @@
+.\objects\hc_usart.o: hardware\HC_Usart.c
+.\objects\hc_usart.o: hardware\HC_Usart.h
+.\objects\hc_usart.o: .\User\def.h
+.\objects\hc_usart.o: .\driver\inc\gpio.h
+.\objects\hc_usart.o: .\driver\inc\ddl.h
+.\objects\hc_usart.o: .\User\base_types.h
+.\objects\hc_usart.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\hc_usart.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hc_usart.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hc_usart.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hc_usart.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\hc_usart.o: .\User\hc32l13x.h

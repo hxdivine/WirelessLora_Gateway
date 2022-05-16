@@ -1,0 +1,2269 @@
+Dependencies for Project 'S282_GateWay', Target 'S282': (DO NOT MODIFY !)
+F (.\User\gd32e10x_it.c)(0x61507489)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_it.o --omf_browse .\objects\gd32e10x_it.crf --depend .\objects\gd32e10x_it.d)
+I (User\gd32e10x_it.h)(0x5F72C8A8)
+I (User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (User\system_gd32e10x.h)(0x5F1E3BD2)
+I (User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (User\systick.h)(0x603F28DE)
+I (User\def.h)(0x5FDC00BA)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\User\gd32e103c_start.c)(0x615074D0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e103c_start.o --omf_browse .\objects\gd32e103c_start.crf --depend .\objects\gd32e103c_start.d)
+I (User\gd32e103c_start.h)(0x5F72C8AA)
+I (User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (User\system_gd32e10x.h)(0x5F1E3BD2)
+I (User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\User\main.c)(0x6150750A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (User\system_gd32e10x.h)(0x5F1E3BD2)
+I (User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (User\systick.h)(0x603F28DE)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\User\def.h)(0x5FDC00BA)
+I (User\dealDat.h)(0x606FCA2A)
+I (User\netLink.h)(0x60FA7E46)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+F (.\User\systick.c)(0x61507578)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (User\system_gd32e10x.h)(0x5F1E3BD2)
+I (User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (User\systick.h)(0x603F28DE)
+I (User\netLink.h)(0x60FA7E46)
+I (User\def.h)(0x5FDC00BA)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+F (.\User\dealDat.c)(0x61507446)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\dealdat.o --omf_browse .\objects\dealdat.crf --depend .\objects\dealdat.d)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (User\dealDat.h)(0x606FCA2A)
+I (User\def.h)(0x5FDC00BA)
+I (.\Drive\USRT\usart.h)(0x60F7F882)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (.\Drive\GPRS\GSM234G.h)(0x61508D5D)
+I (.\Drive\lora\loraDealDat.h)(0x61508D5D)
+I (.\Net\net\EthNet.h)(0x607907F8)
+I (User\netLink.h)(0x60FA7E46)
+I (User\pub.h)(0x61508C6F)
+F (.\User\netLink.c)(0x61507540)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\netlink.o --omf_browse .\objects\netlink.crf --depend .\objects\netlink.d)
+I (User\netLink.h)(0x60FA7E46)
+I (User\def.h)(0x5FDC00BA)
+I (.\Net\net\EthNet.h)(0x607907F8)
+I (.\Drive\GPRS\GprsNet.h)(0x6078EFC0)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (User\dealDat.h)(0x606FCA2A)
+I (.\Drive\lora\loraDealDat.h)(0x61508D5D)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+F (.\Drive\GPRS\GprsNet.c)(0x6150773E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gprsnet.o --omf_browse .\objects\gprsnet.crf --depend .\objects\gprsnet.d)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\User\systick.h)(0x603F28DE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (Drive\GPRS\GprsNet.h)(0x6078EFC0)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\GPRS\GSM234G.h)(0x61508D5D)
+I (Drive\GPRS\SMSInstruct.h)(0x61509156)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\User\dealDat.h)(0x606FCA2A)
+I (.\Drive\Modbus\modbus.h)(0x60517F76)
+I (.\Drive\MQTT\mqtt.h)(0x61509055)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (.\Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (.\Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (.\Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (.\Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (.\Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Net\Uip-app\tapdev.h)(0x6031B438)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (.\User\netLink.h)(0x60FA7E46)
+F (.\Drive\GPRS\GSM234G.c)(0x61509196)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gsm234g.o --omf_browse .\objects\gsm234g.crf --depend .\objects\gsm234g.d)
+I (.\User\systick.h)(0x603F28DE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (Drive\GPRS\GSM234G.h)(0x61508D5D)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\GPRS\SMSInstruct.h)(0x61509156)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (.\User\dealDat.h)(0x606FCA2A)
+F (.\Drive\GPRS\SMSInstruct.c)(0x615091C8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\smsinstruct.o --omf_browse .\objects\smsinstruct.crf --depend .\objects\smsinstruct.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (D:\KEI5_MDK\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\User\systick.h)(0x603F28DE)
+I (Drive\GPRS\SMSInstruct.h)(0x61509156)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\GPRS\SMSLanguage.h)(0x615091FD)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (Drive\GPRS\GSM234G.h)(0x61508D5D)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\lora\loraDealDat.h)(0x61508D5D)
+I (Drive\GPRS\GprsNet.h)(0x6078EFC0)
+I (.\User\dealDat.h)(0x606FCA2A)
+I (Drive\GPRS\gb_uni.h)(0x5FF3DD64)
+I (.\User\pub.h)(0x61508C6F)
+F (.\Net\net\EthNet.c)(0x611B6726)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\ethnet.o --omf_browse .\objects\ethnet.crf --depend .\objects\ethnet.d)
+I (.\User\systick.h)(0x603F28DE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (Net\net\EthNet.h)(0x607907F8)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Net\ENC28j60\enc28j60.h)(0x605D2D28)
+I (.\Net\Uip-app\tapdev.h)(0x6031B438)
+I (.\Net\Uip\dhcpc.h)(0x607791C8)
+I (.\Net\Uip\timer.h)(0x448D2458)
+I (.\Net\Uip\clock.h)(0x448D2458)
+I (.\Net\Uip-app\clock-arch.h)(0x50628134)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\uip_arp.h)(0x448D2458)
+I (.\Net\Uip\uip.h)(0x5FEAD560)
+I (.\Net\Uip-app\resolv.h)(0x5FC9F85C)
+I (.\Drive\Modbus\modbus.h)(0x60517F76)
+I (.\Drive\GPRS\GprsNet.h)(0x6078EFC0)
+I (.\Drive\MQTT\mqtt.h)(0x61509055)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (.\Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (.\Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (.\Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (.\Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (.\Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (.\User\netLink.h)(0x60FA7E46)
+I (.\User\dealDat.h)(0x606FCA2A)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\Net\ENC28j60\enc28j60.c)(0x61507A34)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\enc28j60.o --omf_browse .\objects\enc28j60.crf --depend .\objects\enc28j60.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\systick.h)(0x603F28DE)
+I (Net\ENC28j60\enc28j60.h)(0x605D2D28)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Drive\SPI\spi.h)(0x5FF66C6E)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\Drive\lora\sx127x_Hal.c)(0x6150786B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\sx127x_hal.o --omf_browse .\objects\sx127x_hal.crf --depend .\objects\sx127x_hal.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\lora\sx127x_Hal.h)(0x5FDBF982)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Drive\SPI\spi.h)(0x5FF66C6E)
+F (.\Drive\lora\sx127x_Drive.c)(0x61507896)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\sx127x_drive.o --omf_browse .\objects\sx127x_drive.crf --depend .\objects\sx127x_drive.d)
+I (Drive\lora\sx127x_Drive.h)(0x5FDC1300)
+I (.\User\def.h)(0x5FDC00BA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (Drive\lora\sx127x_Hal.h)(0x5FDBF982)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\Drive\SPI\spi.h)(0x5FF66C6E)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+F (.\Drive\lora\lora.c)(0x6150780B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\lora.o --omf_browse .\objects\lora.crf --depend .\objects\lora.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\lora\lora.h)(0x600FDB1E)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (Drive\lora\sx127x_Drive.h)(0x5FDC1300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (Drive\lora\loraDealDat.h)(0x61508D5D)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\Drive\lora\loraDealDat.c)(0x61507833)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\loradealdat.o --omf_browse .\objects\loradealdat.crf --depend .\objects\loradealdat.d)
+I (.\User\systick.h)(0x603F28DE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (Drive\lora\lora.h)(0x600FDB1E)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\User\dealDat.h)(0x606FCA2A)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (.\Drive\ADC\adc.h)(0x61508D5D)
+I (.\Drive\GPRS\GSM234G.h)(0x61508D5D)
+I (.\Net\Uip-app\tapdev.h)(0x6031B438)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (Drive\lora\loraDealDat.h)(0x61508D5D)
+I (Drive\lora\sx127x_Drive.h)(0x5FDC1300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (.\Drive\CONFIG\config.c)(0x6150761D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (.\User\systick.h)(0x603F28DE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\User\dealDat.h)(0x606FCA2A)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\FLASH\spi_flash.h)(0x5FE95B14)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\Drive\CONFIG\config_interface.c)(0x61507658)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\config_interface.o --omf_browse .\objects\config_interface.crf --depend .\objects\config_interface.d)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (Drive\CONFIG\config.h)(0x61508F12)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Drive\FLASH\spi_flash.h)(0x5FE95B14)
+I (.\Drive\FLASH\sysFlash.h)(0x603D91FA)
+I (Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\Drive\ADC\Adc.c)(0x615075E3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (Drive\ADC\Adc.h)(0x61508D5D)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\User\systick.h)(0x603F28DE)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\Drive\IWDG\iwdg.c)(0x611B030E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\iwdg.o --omf_browse .\objects\iwdg.crf --depend .\objects\iwdg.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\User\def.h)(0x5FDC00BA)
+F (.\Drive\RTC\rtc.c)(0x6150797A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (Drive\RTC\rtc.h)(0x61508D5D)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\Drive\SPI\spi.c)(0x615079A2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\SPI\spi.h)(0x5FF66C6E)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\User\systick.h)(0x603F28DE)
+F (.\Drive\USRT\usart.c)(0x615090C9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\USRT\usart.h)(0x60F7F882)
+I (.\User\def.h)(0x5FDC00BA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\Drive\GPRS\GSM234G.h)(0x61508D5D)
+F (.\Drive\CONFIG\hardware.c)(0x61507680)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\hardware.o --omf_browse .\objects\hardware.crf --depend .\objects\hardware.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\Drive\USRT\usart.h)(0x60F7F882)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\User\systick.h)(0x603F28DE)
+I (.\Drive\GPRS\GSM234G.h)(0x61508D5D)
+I (Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\ADC\Adc.h)(0x61508D5D)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (.\Drive\SPI\spi.h)(0x5FF66C6E)
+I (.\Drive\FLASH\spi_flash.h)(0x5FE95B14)
+I (.\Net\ENC28j60\enc28j60.h)(0x605D2D28)
+I (.\Drive\lora\sx127x_Hal.h)(0x5FDBF982)
+I (.\Drive\TIME\tim1.h)(0x605AEB6E)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\Net\Uip\timer.h)(0x448D2458)
+I (.\Net\Uip\clock.h)(0x448D2458)
+I (.\Net\Uip-app\clock-arch.h)(0x50628134)
+I (.\Drive\TIME\tim2.h)(0x600FD836)
+I (.\Drive\lora\loraDealDat.h)(0x61508D5D)
+I (.\User\dealDat.h)(0x606FCA2A)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\Net\net\EthNet.h)(0x607907F8)
+I (.\User\netLink.h)(0x60FA7E46)
+I (.\User\pub.h)(0x61508C6F)
+F (.\Drive\FLASH\spi_flah.c)(0x61507838)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\spi_flah.o --omf_browse .\objects\spi_flah.crf --depend .\objects\spi_flah.d)
+I (Drive\FLASH\spi_flash.h)(0x5FE95B14)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\Drive\SPI\spi.h)(0x5FF66C6E)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\Net\ENC28j60\enc28j60.h)(0x605D2D28)
+I (.\User\systick.h)(0x603F28DE)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+F (.\Drive\TIME\tim2.c)(0x615079E8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\tim2.o --omf_browse .\objects\tim2.crf --depend .\objects\tim2.d)
+I (Drive\TIME\tim2.h)(0x600FD836)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+F (.\Drive\FLASH\sysFlash.c)(0x61507704)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\sysflash.o --omf_browse .\objects\sysflash.crf --depend .\objects\sysflash.d)
+I (Drive\FLASH\sysFlash.h)(0x603D91FA)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\Drive\TIME\tim1.c)(0x615079CE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\tim1.o --omf_browse .\objects\tim1.crf --depend .\objects\tim1.d)
+I (Drive\TIME\tim1.h)(0x605AEB6E)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\Drive\Modbus\modbus.c)(0x61508F22)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\modbus.o --omf_browse .\objects\modbus.crf --depend .\objects\modbus.d)
+I (.\User\systick.h)(0x603F28DE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\Net\Uip-app\tapdev.h)(0x6031B438)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\Modbus\modbus.h)(0x60517F76)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\lora\loraDealDat.h)(0x61508D5D)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (.\Drive\GPRS\GSM234G.h)(0x61508D5D)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\Drive\Modbus\modbusPub.c)(0x615078F3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\modbuspub.o --omf_browse .\objects\modbuspub.crf --depend .\objects\modbuspub.d)
+I (Drive\Modbus\modbus.h)(0x60517F76)
+I (.\User\def.h)(0x5FDC00BA)
+F (.\Drive\MQTT\MQTTUnsubscribeServer.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttunsubscribeserver.o --omf_browse .\objects\mqttunsubscribeserver.crf --depend .\objects\mqttunsubscribeserver.d)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTUnsubscribeClient.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttunsubscribeclient.o --omf_browse .\objects\mqttunsubscribeclient.crf --depend .\objects\mqttunsubscribeclient.d)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTConnectClient.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttconnectclient.o --omf_browse .\objects\mqttconnectclient.crf --depend .\objects\mqttconnectclient.d)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTConnectServer.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttconnectserver.o --omf_browse .\objects\mqttconnectserver.crf --depend .\objects\mqttconnectserver.d)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTDeserializePublish.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttdeserializepublish.o --omf_browse .\objects\mqttdeserializepublish.crf --depend .\objects\mqttdeserializepublish.d)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTPacket.c)(0x61509086)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttpacket.o --omf_browse .\objects\mqttpacket.crf --depend .\objects\mqttpacket.d)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTFormat.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttformat.o --omf_browse .\objects\mqttformat.crf --depend .\objects\mqttformat.d)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTSerializePublish.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttserializepublish.o --omf_browse .\objects\mqttserializepublish.crf --depend .\objects\mqttserializepublish.d)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTSubscribeServer.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttsubscribeserver.o --omf_browse .\objects\mqttsubscribeserver.crf --depend .\objects\mqttsubscribeserver.d)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\MQTTSubscribeClient.c)(0x5CE23B90)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttsubscribeclient.o --omf_browse .\objects\mqttsubscribeclient.crf --depend .\objects\mqttsubscribeclient.d)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Drive\MQTT\mqtt.c)(0x61508FDE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqtt.o --omf_browse .\objects\mqtt.crf --depend .\objects\mqtt.d)
+I (.\User\systick.h)(0x603F28DE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (Drive\MQTT\mqtt.h)(0x61509055)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Net\Uip-app\tapdev.h)(0x6031B438)
+I (.\Drive\GPRS\GSM234G.h)(0x61508D5D)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (.\Net\net\EthNet.h)(0x607907F8)
+I (.\Drive\lora\loraDealDat.h)(0x61508D5D)
+I (.\Drive\IWDG\iwdg.h)(0x5FDAD57A)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (Drive\MQTT\AliyunIOT.h)(0x60F8E9F2)
+I (Drive\MQTT\HuaweiIOT.h)(0x60F8F268)
+F (.\Drive\MQTT\cJSON.c)(0x615090F0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\cjson.o --omf_browse .\objects\cjson.crf --depend .\objects\cjson.d)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\float.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (Drive\MQTT\cJSON.h)(0x5FFE64E8)
+F (.\Drive\MQTT\AliyunIOT.c)(0x61507920)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\aliyuniot.o --omf_browse .\objects\aliyuniot.crf --depend .\objects\aliyuniot.d)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (Drive\MQTT\AliyunIOT.h)(0x60F8E9F2)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Drive\lora\loraDealDat.h)(0x61508D5D)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (Drive\MQTT\mqtt.h)(0x61509055)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Net\Uip-app\tapdev.h)(0x6031B438)
+F (.\Drive\MQTT\HuaweiIOT.c)(0x61508F22)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\huaweiiot.o --omf_browse .\objects\huaweiiot.crf --depend .\objects\huaweiiot.d)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\Drive\lora\loraDealDat.h)(0x61508D5D)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (Drive\MQTT\HuaweiIOT.h)(0x60F8F268)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+I (Drive\MQTT\mqtt.h)(0x61509055)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Net\Uip-app\tapdev.h)(0x6031B438)
+F (.\Drive\MQTT\MqttCouldPub.c)(0x61509055)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\mqttcouldpub.o --omf_browse .\objects\mqttcouldpub.crf --depend .\objects\mqttcouldpub.d)
+I (Drive\MQTT\mqtt.h)(0x61509055)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (Drive\MQTT\MQTTPacket.h)(0x5FFE6030)
+I (.\User\def.h)(0x5FDC00BA)
+I (Drive\MQTT\MQTTConnect.h)(0x5FFE6440)
+I (Drive\MQTT\MQTTPublish.h)(0x5FFE6468)
+I (Drive\MQTT\MQTTSubscribe.h)(0x5FFE5FB4)
+I (Drive\MQTT\MQTTUnsubscribe.h)(0x5FFE64A4)
+I (Drive\MQTT\MQTTFormat.h)(0x5FFE64C0)
+I (Drive\MQTT\StackTrace.h)(0x5FFE63EE)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Net\Uip-app\tapdev.h)(0x6031B438)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (Drive\MQTT\cJSON.h)(0x5FFE64E8)
+I (.\User\pub.h)(0x61508C6F)
+I (.\Drive\RTC\rtc.h)(0x61508D5D)
+F (.\Net\Uip\timer.c)(0x61508B9C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (Net\Uip\clock.h)(0x448D2458)
+I (.\Net\Uip-app\clock-arch.h)(0x50628134)
+I (Net\Uip\timer.h)(0x448D2458)
+F (.\Net\Uip\uip.c)(0x61508B7D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\uip.o --omf_browse .\objects\uip.crf --depend .\objects\uip.d)
+I (Net\Uip\uip.h)(0x5FEAD560)
+I (Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (Net\Uip\uip_arch.h)(0x448D2458)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\Net\Uip\uip_arp.c)(0x61508B50)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\uip_arp.o --omf_browse .\objects\uip_arp.crf --depend .\objects\uip_arp.d)
+I (Net\Uip\uip_arp.h)(0x448D2458)
+I (Net\Uip\uip.h)(0x5FEAD560)
+I (Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Net\Uip\uip-fw.c)(0x61508B41)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\uip-fw.o --omf_browse .\objects\uip-fw.crf --depend .\objects\uip-fw.d)
+I (Net\Uip\uip.h)(0x5FEAD560)
+I (Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (Net\Uip\uip_arch.h)(0x448D2458)
+I (Net\Uip\uip-fw.h)(0x448D2458)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Net\Uip\uiplib.c)(0x61508B02)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\uiplib.o --omf_browse .\objects\uiplib.crf --depend .\objects\uiplib.d)
+I (Net\Uip\uip.h)(0x5FEAD560)
+I (Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (Net\Uip\uiplib.h)(0x448D2458)
+F (.\Net\Uip\uip-neighbor.c)(0x61508AD6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\uip-neighbor.o --omf_browse .\objects\uip-neighbor.crf --depend .\objects\uip-neighbor.d)
+I (Net\Uip\uip-neighbor.h)(0x448D2458)
+I (Net\Uip\uip.h)(0x5FEAD560)
+I (Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\Net\Uip\dhcpc.c)(0x61508BF2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\dhcpc.o --omf_browse .\objects\dhcpc.crf --depend .\objects\dhcpc.d)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (Net\Uip\uip.h)(0x5FEAD560)
+I (Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (Net\Uip\dhcpc.h)(0x607791C8)
+I (Net\Uip\timer.h)(0x448D2458)
+I (Net\Uip\clock.h)(0x448D2458)
+I (.\Net\Uip-app\clock-arch.h)(0x50628134)
+I (.\Net\Uip-app\resolv.h)(0x5FC9F85C)
+F (.\Net\Uip-app\clock-arch.c)(0x61508901)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\clock-arch.o --omf_browse .\objects\clock-arch.crf --depend .\objects\clock-arch.d)
+I (Net\Uip-app\clock-arch.h)(0x50628134)
+I (.\User\def.h)(0x5FDC00BA)
+F (.\Net\Uip-app\tapdev.c)(0x6150898C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\tapdev.o --omf_browse .\objects\tapdev.crf --depend .\objects\tapdev.d)
+I (Net\Uip-app\tapdev.h)(0x6031B438)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Net\Uip\uip.h)(0x5FEAD560)
+I (.\Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\Net\ENC28j60\enc28j60.h)(0x605D2D28)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Net\Uip\dhcpc.h)(0x607791C8)
+I (.\Net\Uip\timer.h)(0x448D2458)
+I (.\Net\Uip\clock.h)(0x448D2458)
+I (.\Net\Uip-app\clock-arch.h)(0x50628134)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Net\Uip\uip_arp.h)(0x448D2458)
+F (.\Net\Uip-app\resolv.c)(0x6150895D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\resolv.o --omf_browse .\objects\resolv.crf --depend .\objects\resolv.d)
+I (Net\Uip-app\resolv.h)(0x5FC9F85C)
+I (.\Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip\uip.h)(0x5FEAD560)
+I (.\Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (Net\Uip-app\tapdev.h)(0x6031B438)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\Net\Uip-app\uip_appcall.c)(0x61508A34)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\uip_appcall.o --omf_browse .\objects\uip_appcall.crf --depend .\objects\uip_appcall.d)
+I (Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Net\Uip\uip.h)(0x5FEAD560)
+I (.\Net\ENC28j60\enc28j60.h)(0x605D2D28)
+I (Net\Uip-app\resolv.h)(0x5FC9F85C)
+I (Net\Uip-app\Tapdev.h)(0x6031B438)
+I (D:\KEI5_MDK\ARM\ARMCC\include\STDIO.H)(0x5475F300)
+I (.\Net\Uip\dhcpc.h)(0x607791C8)
+I (.\Net\Uip\timer.h)(0x448D2458)
+I (.\Net\Uip\clock.h)(0x448D2458)
+I (.\Net\Uip-app\clock-arch.h)(0x50628134)
+F (.\Net\Uip-app\udp_server.c)(0x61508A1C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\udp_server.o --omf_browse .\objects\udp_server.crf --depend .\objects\udp_server.d)
+I (Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Net\Uip\uip.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+F (.\Net\Uip-app\udp_client.c)(0x61508A0D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\udp_client.o --omf_browse .\objects\udp_client.crf --depend .\objects\udp_client.d)
+I (Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Net\Uip\uip.h)(0x5FEAD560)
+I (Net\Uip-app\tapdev.h)(0x6031B438)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\Net\Uip-app\tcp_server.c)(0x615089D9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\tcp_server.o --omf_browse .\objects\tcp_server.crf --depend .\objects\tcp_server.d)
+I (Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Net\Uip\uip.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Drive\CONFIG\config.h)(0x61508F12)
+I (.\Drive\Modbus\modbus.h)(0x60517F76)
+I (.\Drive\CONFIG\hardware.h)(0x61508F18)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (.\Net\Uip-app\tcp_client.c)(0x615089B4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\tcp_client.o --omf_browse .\objects\tcp_client.crf --depend .\objects\tcp_client.d)
+I (Net\Uip-app\uip_appcall.h)(0x605989B6)
+I (.\Net\Uip\uipopt.h)(0x56960138)
+I (.\Net\Uip-app\uip-conf.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\inttypes.h)(0x5475F2FA)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\Net\Uip\psock.h)(0x448D2458)
+I (.\Net\Uip\pt.h)(0x5FEAA570)
+I (.\Net\Uip\lc.h)(0x448D2458)
+I (.\Net\Uip\lc-switch.h)(0x448D2458)
+I (.\User\def.h)(0x5FDC00BA)
+I (.\Net\Uip\uip.h)(0x5FEAD560)
+I (D:\KEI5_MDK\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\Net\net\EthNet.h)(0x607907F8)
+I (Net\Uip-app\tapdev.h)(0x6031B438)
+F (.\User\startup_gd32e10x.s)(0x61509244)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "GD32E10x SETA 1"--list .\listings\startup_gd32e10x.lst --xref -o .\objects\startup_gd32e10x.o --depend .\objects\startup_gd32e10x.d)
+F (.\CMSIS\GD\GD32E10x\Source\system_gd32e10x.c)(0x6038B88E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\system_gd32e10x.o --omf_browse .\objects\system_gd32e10x.crf --depend .\objects\system_gd32e10x.d)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_gpio.c)(0x5FE06D8A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_gpio.o --omf_browse .\objects\gd32e10x_gpio.crf --depend .\objects\gd32e10x_gpio.d)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_misc.c)(0x5FE06D8B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_misc.o --omf_browse .\objects\gd32e10x_misc.crf --depend .\objects\gd32e10x_misc.d)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_rcu.c)(0x60AC71CE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_rcu.o --omf_browse .\objects\gd32e10x_rcu.crf --depend .\objects\gd32e10x_rcu.d)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_spi.c)(0x60AC6435)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_spi.o --omf_browse .\objects\gd32e10x_spi.crf --depend .\objects\gd32e10x_spi.d)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Include\gd32e10x_fmc.c)(0x5FE06D89)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_fmc.o --omf_browse .\objects\gd32e10x_fmc.crf --depend .\objects\gd32e10x_fmc.d)
+I (lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_dma.c)(0x5FE06D89)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_dma.o --omf_browse .\objects\gd32e10x_dma.crf --depend .\objects\gd32e10x_dma.d)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\lib\Source\gd32e10x_usart.c)(0x5FE06D8C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_usart.o --omf_browse .\objects\gd32e10x_usart.crf --depend .\objects\gd32e10x_usart.d)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_bkp.c)(0x5FE06D88)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_bkp.o --omf_browse .\objects\gd32e10x_bkp.crf --depend .\objects\gd32e10x_bkp.d)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_rtc.c)(0x5FE06D8B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_rtc.o --omf_browse .\objects\gd32e10x_rtc.crf --depend .\objects\gd32e10x_rtc.d)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_fwdgt.c)(0x5FE06D89)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_fwdgt.o --omf_browse .\objects\gd32e10x_fwdgt.crf --depend .\objects\gd32e10x_fwdgt.d)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_exti.c)(0x5FE06D89)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_exti.o --omf_browse .\objects\gd32e10x_exti.crf --depend .\objects\gd32e10x_exti.d)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_pmu.c)(0x60A22A49)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_pmu.o --omf_browse .\objects\gd32e10x_pmu.crf --depend .\objects\gd32e10x_pmu.d)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_adc.c)(0x5FE06D88)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_adc.o --omf_browse .\objects\gd32e10x_adc.crf --depend .\objects\gd32e10x_adc.d)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\lib\Source\gd32e10x_timer.c)(0x5FE06D8C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\User -I.\lib\Include -I.\CMSIS -I.\CMSIS\GD\GD32E10x\Include -I.\Net\ENC28j60 -I.\Drive\lora -I.\Drive\GPRS -I.\Drive\Modbus -I.\Drive\MQTT -I.\Drive\ADC -I.\Drive\CONFIG -I.\Drive\FLASH -I.\Drive\IWDG -I.\Drive\IWDG -I.\Drive\RTC -I.\Drive\SPI -I.\Drive\TIME -I.\Drive\USRT -I.\Net\Uip -I.\Net\net -I.\Net\Uip-app-I G:\lora\S282_Gateway\RTE-I D:\KEI5_MDK\ARM\PACK\GigaDevice\GD32E10x_DFP\1.2.0-I D:\KEI5_MDK\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103C_START-o .\objects\gd32e10x_timer.o --omf_browse .\objects\gd32e10x_timer.crf --depend .\objects\gd32e10x_timer.d)
+I (.\lib\Include\gd32e10x_timer.h)(0x5FE06D8C)
+I (.\User\gd32e10x.h)(0x5FE584CE)
+I (.\CMSIS\core_cm4.h)(0x5EB297F4)
+I (D:\KEI5_MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\core_cmInstr.h)(0x5EB297F4)
+I (.\CMSIS\core_cmFunc.h)(0x5EB297F4)
+I (.\CMSIS\core_cm4_simd.h)(0x5EB297F4)
+I (.\User\system_gd32e10x.h)(0x5F1E3BD2)
+I (.\User\gd32e10x_libopt.h)(0x5F72C8A8)
+I (.\lib\Include\gd32e10x_rcu.h)(0x5FE9729F)
+I (.\lib\Include\gd32e10x_adc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_can.h)(0x5F64750A)
+I (.\lib\Include\gd32e10x_crc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_ctc.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_dac.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_dbg.h)(0x5FE96FEA)
+I (.\lib\Include\gd32e10x_dma.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_exti.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fmc.h)(0x5FE06D89)
+I (.\lib\Include\gd32e10x_fwdgt.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_gpio.h)(0x5FE9750E)
+I (.\lib\Include\gd32e10x_i2c.h)(0x5FE06D8A)
+I (.\lib\Include\gd32e10x_pmu.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_bkp.h)(0x5FE06D88)
+I (.\lib\Include\gd32e10x_rtc.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_spi.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_usart.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_wwdgt.h)(0x5FE06D8C)
+I (.\lib\Include\gd32e10x_misc.h)(0x5FE06D8B)
+I (.\lib\Include\gd32e10x_exmc.h)(0x5FE06D89)
+F (.\User\Seq÷∏¡Ó.txt)(0x6073E30E)()

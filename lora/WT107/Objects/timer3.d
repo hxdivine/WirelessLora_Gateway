@@ -1,0 +1,10 @@
+.\objects\timer3.o: driver\src\timer3.c
+.\objects\timer3.o: .\driver\inc\timer3.h
+.\objects\timer3.o: .\driver\inc\ddl.h
+.\objects\timer3.o: .\User\base_types.h
+.\objects\timer3.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\timer3.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\timer3.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\timer3.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer3.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\timer3.o: .\User\hc32l13x.h

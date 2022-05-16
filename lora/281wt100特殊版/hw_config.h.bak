@@ -1,0 +1,66 @@
+
+#define KEYRST		((GPIO_ReadInputData(GPIOE)&GPIO_PIN_5))
+#define KEYSET		((GPIO_ReadInputData(GPIOD)&GPIO_PIN_7)==0)
+
+
+#define SDA_LOW			GPIO_WriteLow(GPIOB, GPIO_PIN_5);
+#define SDA_HIGH		GPIO_WriteHigh(GPIOB, GPIO_PIN_5);
+#define SDA_IN			((GPIO_ReadInputData(GPIOB)&GPIO_PIN_5)!=0)
+
+#define HUMIDLEDOFF	GPIO_WriteHigh(GPIOB, GPIO_PIN_2); 
+#define HUMIDLEDON	    GPIO_WriteLow(GPIOB, GPIO_PIN_2);
+
+#define TEMPOFF	GPIO_WriteHigh(GPIOB, GPIO_PIN_1); 
+#define TEMPON	    GPIO_WriteLow(GPIOB, GPIO_PIN_1);
+
+#define WTLEDOFF	GPIO_WriteHigh(GPIOB, GPIO_PIN_0); 
+#define WTLEDON		GPIO_WriteLow(GPIOB, GPIO_PIN_0);
+
+
+#define ClrWdg		IWDG_ReloadCounter();//IWDG->KR = IWDG_KEY_REFRESH;
+
+void Tim1_Init(void);
+void Tim2_Init(void);
+void ADC_Init(void);
+
+
+
+//hw_config.c
+
+void SetSystem();
+void UART1_SendByte(u8 data);
+
+u16 GetBatAdc(void);
+u16 GetSysms(void);
+void TranAdValue(void);
+extern u8 FreeCnt1;
+extern u16 ad1,ad2,AdRes1,AdRes2;
+extern u16 LedCnt1,LedCnt3;
+
+  
+   // u8 *data;
+   // u8 sum;
+    
+
+typedef struct
+{
+    u8 TranMode;//0查询 非0为间隔时间，即主动上发
+    u8 id;    
+    s16 TempHigh;
+    u16 HumiHigh;
+    u16 Ad1High;
+    u16 Ad2High;
+    
+    s16 TempLow;    
+    u16 HumiLow;    
+    u16 Ad1Low;    
+    u16 Ad2Low;
+    
+}WT3SYSINFO;
+
+extern WT3SYSINFO SysInfo;
+extern s16 g_Temp;
+extern u16 g_humid;;
+
+extern u8 InSetMode;
+//#define HALFSEC 20

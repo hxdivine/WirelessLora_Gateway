@@ -1,0 +1,10 @@
+.\objects\spi.o: driver\src\spi.c
+.\objects\spi.o: .\driver\inc\spi.h
+.\objects\spi.o: .\driver\inc\ddl.h
+.\objects\spi.o: .\User\base_types.h
+.\objects\spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\string.h
+.\objects\spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\spi.o: D:\KEI5_MDK\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\spi.o: .\User\hc32l13x.h
